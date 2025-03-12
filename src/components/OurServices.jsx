@@ -39,14 +39,22 @@ const OurServices = () => {
                         </section>
                     </div>
                 </div>
-                
+
                 <div className="flex flex-col justify-between border-1 p-10 bg-white">
                     <div>
                         <p className="text-3xl font-bold border-b-1 border-sky-200 mb-8 pb-3">Surveying</p>
                     </div>
                     <div>
+                        <p className="text-[22px]">
+                            We can help you with a detailed and accurate information about any land you purchase, 
+                            be it from us or other sellers, at a very cool price. No matter where the land is 
+                            situated. Just call on us and watch us perform the magic. 
+                        </p>
                     </div>
                     <div>
+                        <section className="mt-10">
+                            <Button size="lg" className="bg-sky-500 font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px] cursor-pointer">GET IN TOUCH</Button>
+                        </section>
                     </div>
                 </div>
             </div>

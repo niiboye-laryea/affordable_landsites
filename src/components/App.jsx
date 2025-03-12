@@ -1,6 +1,4 @@
-import Landing from "./Landing"
-import Navbar from "./Navbar"
-import OurServices from "./OurServices"
+import { Landing, Navbar, OurServices, Testimonials } from "../components"
 
 let App = () => {
     return (<>
@@ -10,6 +8,9 @@ let App = () => {
 
             {/* Services */}
             <OurServices />
+
+            {/* What our customers say */}
+            <Testimonials />
 
             {/* Get in touch */}
         </div>
