@@ -17,7 +17,7 @@ var Landing = () => {
 
                     <section className="mt-10 mb-10">
                         <p>
-                            <Button size="lg" className="w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px] cursor-pointer">GET IN TOUCH</Button>
+                            <Button size="lg" className="bg-sky-500 w-full font-bold text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px] cursor-pointer">GET IN TOUCH</Button>
                         </p>
                     </section>
                 </div>
