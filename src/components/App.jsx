@@ -1,5 +1,6 @@
 import { Landing, Navbar, OurServices, Testimonials } from "../components"
 import Contacts from "./Contacts"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 let App = () => {
     return (<>

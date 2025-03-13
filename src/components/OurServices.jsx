@@ -1,4 +1,5 @@
-import { Button } from "./ui/button"
+import { Button } from "react-bootstrap"
+
 
 const OurServices = () => {
     return (<>
@@ -17,7 +18,7 @@ const OurServices = () => {
                     </div>
                     <div>
                         <section className="mt-10">
-                            <Button size="lg" className="bg-sky-500 font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px] cursor-pointer">GET IN TOUCH</Button>
+                            <Button size="md" variant="primary" className="font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px]">GET IN TOUCH</Button>
                         </section>
                     </div>
                 </div>
@@ -35,7 +36,7 @@ const OurServices = () => {
                     </div>
                     <div>
                         <section className="mt-10">
-                            <Button size="lg" className="bg-sky-500 font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px] cursor-pointer">GET IN TOUCH</Button>
+                            <Button size="md" variant="primary" className="font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px]">GET IN TOUCH</Button>
                         </section>
                     </div>
                 </div>
@@ -53,7 +54,7 @@ const OurServices = () => {
                     </div>
                     <div>
                         <section className="mt-10">
-                            <Button size="lg" className="bg-sky-500 font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px] cursor-pointer">GET IN TOUCH</Button>
+                            <Button variant="primary" size="md" className="font-bold w-full text-[15px] px-20 md:text-[18px] lg:text-[18px] xl:text-[18px]">GET IN TOUCH</Button>
                         </section>
                     </div>
                 </div>
