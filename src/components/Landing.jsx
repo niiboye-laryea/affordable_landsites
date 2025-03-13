@@ -2,7 +2,7 @@ import { Button } from "./ui/button"
 
 var Landing = () => {
     return (<>
-        <div className="h-auto w-full">
+        <div className="h-auto w-full pb-20">
             <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-3 text-center py-10">
                 <div className="flex flex-col items-center text-center w-full p-10">
                     <p className="w-fit font-bold text-grey-900 text-5xl md:text-6xl lg:text-7xl">
@@ -21,8 +21,8 @@ var Landing = () => {
                         </p>
                     </section>
                 </div>
-                <div className="w-fit px-10">
-                    <img src="/land_sites/land1.jpg" alt="site-1" />
+                <div className="w-auto px-10">
+                    <img src="/land_sites/land1.jpg" alt="site-1" className="mr-auto ml-auto" />
                 </div>
             </div>
         </div>

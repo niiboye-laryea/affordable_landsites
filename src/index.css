@@ -140,7 +140,17 @@
 
 .testimonies {
   background-color: #f0f9ff;
-  border-top: 3px solid #00a7f456;
+  border-top: 5px solid #00a7f456;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.profile {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
