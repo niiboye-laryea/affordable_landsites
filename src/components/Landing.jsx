@@ -3,9 +3,9 @@ import { Button } from "./ui/button"
 var Landing = () => {
     return (<>
         <div className="h-auto w-full">
-            <div className="flex flex-col gap-3 md:flex-row justify-between py-10">
-                <div className="flex flex-col items-center text-center w-full md:w-1/2 lg:w-1/2 xl:w-1/2 p-10">
-                    <p className="w-fit font-bold !leading-tight text-grey-900 text-5xl md:text-6xl lg:text-7xl">
+            <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-3 text-center py-10">
+                <div className="flex flex-col items-center text-center w-full p-10">
+                    <p className="w-fit font-bold text-grey-900 text-5xl md:text-6xl lg:text-7xl">
                         <span className="bg-sky-500 text-white px-5 mr-2">Affordable</span>
                         lands at various sites.
                     </p>

@@ -2,9 +2,9 @@ import { Button } from "./ui/button"
 
 const OurServices = () => {
     return (<>
-        <div className="bg-sky-50 text-center pt-10">
+        <div className="bg-sky-50 text-center pt-20">
             <p className="text-5xl font-bold text-sky-500">What we offer</p>
-            <div className="grid grid-rows-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-10 pt-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 pt-10 pb-20 px-10">
                 <div className="flex flex-col justify-between border-1 p-10 bg-white">
                     <div>
                         <p className="text-3xl font-bold border-b-1 border-sky-200 pb-5">Lands</p>
