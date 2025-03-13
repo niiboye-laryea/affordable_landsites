@@ -1,4 +1,5 @@
 import { Landing, Navbar, OurServices, Testimonials } from "../components"
+import Contacts from "./Contacts"
 
 let App = () => {
     return (<>
@@ -13,6 +14,7 @@ let App = () => {
             <Testimonials />
 
             {/* Get in touch */}
+            <Contacts />
         </div>
     </>)
 }
