@@ -1,9 +1,7 @@
 import { FaFacebook, FaInstagram, FaPhoneAlt, FaTwitter } from "react-icons/fa"
 import { MdOutlineMailOutline } from "react-icons/md";
 import React from "react"
-import Form from 'react-bootstrap/Form';
-import { FormInput } from "lucide-react";
-import { Button, FloatingLabel, FormLabel } from "react-bootstrap";
+import ContactForm from "./ContactForm";
 
 const Contacts = () => {
     return (<>
@@ -42,32 +40,16 @@ const Contacts = () => {
                     </div>
                     <div>
                         <p className="mt-5 text-slate-300 font-bold">Contact Numbers</p>
-                        <p className="flex items-center gap-4 text-[16px]">
+                        <div className="flex items-center gap-4 text-[16px]">
                             <FaPhoneAlt className="text-sky-500" /> 
-                            <section className="flex flex-col">
-                                <p>+241 215 885442</p>
-                                <p>+233 552 421585</p>
-                            </section>
-                        </p>
+                            <p className="flex flex-col">
+                                <span>+241 215 885442</span>
+                                <span>+233 552 421585</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div className="text-left text-[18px]">
-                    <p className="text-slate-300 font-bold text-[20px]">Send us a message</p>
-                    <Form>
-                        <Form.Floating className="mb-3">
-                            <Form.Control type="text" id="fullname" placeholder="Full name here..." />
-                            <label htmlFor="fullname">Full Name</label>
-                        </Form.Floating>
-                        <Form.Floating className="mb-3">
-                            <Form.Control type="email" id="email_address" placeholder="Email here..." />
-                            <label htmlFor="email_address">Email Address</label>
-                        </Form.Floating>
-                        <FloatingLabel controlId="user_message" label="Message" className="mb-3">
-                            <Form.Control as="textarea" placeholder="Leave your message here..." style={{ height: '150px' }} />
-                        </FloatingLabel>
-                        <Button variant="primary" size="md" className="w-full lg:w-1/2">Send Message</Button>
-                    </Form>
-                </div>
+                <ContactForm />
             </div>
         </div>
     </>)
