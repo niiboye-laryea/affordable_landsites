@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap"
 
 const OurServices = () => {
     return (<>
-        <div className="bg-sky-50 text-center pt-20">
+        <div id="what_we_offer" className="bg-sky-50 text-center pt-20">
             <p className="text-5xl font-bold text-sky-500">What we offer</p>
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 pt-10 pb-20 px-10">
                 <div className="flex flex-col justify-between border-1 p-10 bg-white">

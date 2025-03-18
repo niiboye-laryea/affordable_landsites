@@ -160,3 +160,14 @@
   font-size: 16px;
 }
 
+a.alinks {
+  text-decoration: underline 4px transparent;
+  text-underline-offset: 9px;
+}
+
+a.alinks:hover {
+  text-decoration: underline 4px;
+  text-underline-offset: 9px;
+  text-decoration-color: #00a7f4b0;
+}
+
