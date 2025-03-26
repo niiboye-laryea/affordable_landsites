@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 
 const Contacts = () => {
     return (<>
-        <div id="contact_us" className="pt-20 pb-20 px-10 bg-slate-800 text-slate-400 text-center">
+        <div id="contact_us" className="pt-20 pb-10 px-10 bg-slate-800 text-slate-400 text-center">
             <p className="text-left lg:text-center text-5xl font-bold text-slate-300">Get In Touch With Us</p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-15">
                 <div className="text-left text-[20px]">

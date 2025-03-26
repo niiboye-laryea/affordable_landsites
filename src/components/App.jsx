@@ -1,4 +1,4 @@
-import { Landing, Navbar, OurServices, Testimonials } from "../components"
+import { Landing, Navbar, OurServices, Testimonials, Footer } from "../components"
 import Contacts from "./Contacts"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -16,6 +16,9 @@ let App = () => {
 
             {/* Get in touch */}
             <Contacts />
+
+            {/* Footer */}
+            <Footer />
         </div>
     </>)
 }
